@@ -1,0 +1,52 @@
+.section1 {
+    background-color: #fcf951;
+    height: 100vh;
+}
+
+/* Header Start */
+.header {
+    position: relative !important;
+}
+
+.modal-content {
+    transform: translate(-50%, -50%) !important;
+    position: absolute;
+    border-radius: 25px;
+    left: 50% !important;
+    right: 50% !important;
+    width: 700px !important;
+    padding: 0% !important;
+    margin-top: 35% !important;
+}
+
+.childNavContent {
+    background-color: #fcf951;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: wheat;
+    }
+}
+
+/* style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
+style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
+style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
+style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
+style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }} */
+/* Media Query */
+
+@media (max-width: 576px) {
+    .modal-content {
+        width: 100% !important;
+        height: 50vh;
+        margin-top: 40% !important;
+        transform: translate(-50%, -50%) !important;
+        position: absolute;
+        border-radius: 25px;
+        left: 50% !important;
+        right: 50% !important;
+        overflow: auto;
+    }
+}
