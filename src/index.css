@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box !important;
+}
+
 .section1 {
     background-color: #fcf951;
     height: 100vh;
@@ -16,6 +20,7 @@
     right: 50% !important;
     width: 700px !important;
     padding: 0% !important;
+    /* margin-top: 55% !important; */
     margin-top: 35% !important;
 }
 
