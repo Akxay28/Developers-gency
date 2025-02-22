@@ -6,7 +6,16 @@ const Section1 = () => {
         <>
             <section className='section1'>
                 <Header />
-                <h1>Section 1</h1>
+                <div className="container">
+                    <div className="row mt-5">
+                        <div className="col-lg-12">
+                            <p className='text-center fs-1 ' style={{ color: "black" }}>We design. We develop.</p>
+                            <p className='text-center display-1 fw-bolder boldText'>We deliver your vision <br /> to the world</p>
+                            <p className='text-center fs-3 ' style={{ color: "black" }}>Explore our work and discover your potential.</p>
+
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
     )

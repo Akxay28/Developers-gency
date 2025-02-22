@@ -35,6 +35,13 @@
     }
 }
 
+/* Section one */
+
+.boldText {
+    font-weight: 900 !important;
+    color: black;
+}
+
 /* style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
 style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
 style={{ backgroundColor: "#fcf951", borderRadius: "25px", cursor: 'pointer' }}
