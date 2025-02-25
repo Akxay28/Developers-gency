@@ -15,7 +15,7 @@ import { texture } from 'three/tsl';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-export default function Lanyard({ position = [0, 0, 20], gravity = [0, -40, 0], fov = 20, transparent = true }) {
+export default function Lanyard({ position = [0, 0, 10], gravity = [0, -40, 0], fov = 20, transparent = true }) {
     return (
         <div className="lanyard-wrapper">
             <Canvas

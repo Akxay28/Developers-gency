@@ -27,7 +27,7 @@ export default function DragItems() {
     ]);
 
     useEffect(() => {
-        AOS.init({ duration: 1000, easing: 'ease-out' }); // Initialize AOS with a smooth animation duration and easing
+        AOS.init({ duration: 1000, easing: 'ease-out' });
     }, []);
     return (
         <Reorder.Group
@@ -41,7 +41,7 @@ export default function DragItems() {
                         {items.map((item) => (
                             <Item key={item.id} item={item}>
                                 {/* <h1 className="text-center"></h1> */}
-                                <p className='text-center  fs-1  fw-bolder text-capitalize text-white' data-aos="fade-up" // Add AOS animation here
+                                <p className='text-center  fs-1  fw-bolder text-capitalize text-white' data-aos="zoom-in" // Add AOS animation here
                                     data-aos-delay="300" >{item.title}</p>
                             </Item>
                         ))}

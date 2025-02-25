@@ -16,22 +16,20 @@ const Section1 = () => {
                             <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
                         </div>
                         <div className="col-lg-6 ">
-                            <div className="container mt-0 mt-lg-3 py-0 py-lg-5">
-                                <div className='text-center mb-5 align-items-center d-flex justify-content-center fs-4'>Drag & arrange it your way
-                                    {/* <img src="firebaseicon.gif" className='ms-3 img-fluid' width={70} height={70} alt="" /> */}
-                                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGhqNzZycTliM2RqcmthaHY4anNlMmlpbjZvOWI0bmlqZGFvY3lidiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/uQpbAdpLyH5lIPe9Qk/giphy.gif" className='ms-3 img-fluid' width={70} height={70} alt="" />
+                            {/* <div className="container mt-0 mt-lg-3 py-0 py-lg-5">
+                                <div className='text-center mb-5 align-items-center d-flex justify-content-center fs-4' data-aos="fade-up" data-aos-duration="1000" >Drag & arrange it your way
+                                    <img src="firebaseicon.gif" className='ms-3 img-fluid' width={70} height={70} alt="" />
                                 </div>
                                 <DragItems />
-
-                            </div>
-                            {/* <div className="container mt-0 mt-lg-5 py-0 py-lg-5">
+                            </div> */}
+                            <div className="container mt-0 mt-lg-5 py-0 py-lg-5">
                                 <p className='text-center fs-1' style={{ color: "black" }}>We design. We develop.</p>
                                 <p className='text-center display-1 fw-bolder boldText'>We deliver your vision <br /> to the world</p>
                                 <p className='text-center fs-3 ' style={{ color: "black" }}>Explore our work and discover your potential.</p>
                                 <p className='text-center'>
                                     <BatmanBtn text={"Show Me The Magic"} />
                                 </p>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
