@@ -1,9 +1,11 @@
 .falling-text-container {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 500px;
     /* border: 2px solid #fff; */
+    overflow: hidden ! important;
+    margin-top: 100px ! important;
     cursor: grab;
     text-align: center;
     padding-top: 2em;
@@ -23,6 +25,7 @@
 .highlighted {
     /* color: cyan; */
     color: white;
+    text-shadow: -16px 9px 5px rgba(0, 0, 0, 0.6);
     font-weight: bolder;
 }
 
