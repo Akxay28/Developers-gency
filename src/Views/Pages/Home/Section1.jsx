@@ -1,17 +1,21 @@
 import React from 'react';
+import BatmanBtn from '../../Layout/Component/BatmanBtn/BatmanBtn';
 import FallingText from '../../Layout/Component/FallingText/FallingText';
 import Lanyard from '../../Layout/Component/Lanyard/Lanyard';
 import Header from '../../Layout/Header/Header';
-import BatmanBtn from '../../Layout/Component/BatmanBtn/BatmanBtn';
+import { motion } from 'framer-motion';
 
 const Section1 = () => {
+    // <motion.div animate={{ x: 0 }} />
+
     return (
+
         <>
-            <section className='section1    '>
+            <motion.section className='section1 bg-fixed sticky'>
                 <Header />
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 ">
+                        <div className="col-lg-6 overlay">
                             <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
                         </div>
                         <div className="col-lg-6 text-center ">
@@ -44,7 +48,7 @@ const Section1 = () => {
                         </div>
                     </div>
                 </div>
-            </section >
+            </motion.section>
         </>
     )
 }
