@@ -6,36 +6,21 @@
 }
 
 .section1 {
-    background-color: #fcf951;
-    width: 100%;
-    /* height: 100vh !important; */
-    /* background-image: url("./assets/Image/backgroundColor.png"); */
-    /* background-attachment: fixed !important; */
-    /* background-size: cover; */
-    /* background-position: center; */
+    /* background-color: #fcf951; */
+    background-color: #62ccd6cc;
 }
 
 .bg-fixed {
     background-attachment: fixed !important;
 }
 
-/* 
-.sticky {
-    position: sticky;
-    z-index: -1;
-    top: 0;
-}
-
-
-.overlay {
-    z-index: 9999 !important;
-} */
 
 #section2 {
     background-color: black;
-    height: 100vh;
+    height: 150vh !important;
     width: 100% !important;
     /* z-index: 9999; */
+    /* overflow-y: hidden; */
 }
 
 /* Header Start */
