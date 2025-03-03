@@ -17,7 +17,7 @@
 
 #section2 {
     background-color: black;
-    height: 150vh !important;
+    /* height: 150vh !important; */
     width: 100% !important;
     overflow-y: hidden;
 }
