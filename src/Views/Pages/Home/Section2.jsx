@@ -17,32 +17,32 @@ Aos.init({
 const Section2 = () => {
     const scrollref = useRef(null);
 
-    useEffect(() => {
-        // Initialize locomotive scroll
-        const scroll = new locomotiveScroll({
-            el: scrollref.current,
-            smooth: true,
-            multiplier: 1.2, // Optional, you can adjust smoothness
-        });
+    // useEffect(() => {
+    //     // Initialize locomotive scroll
+    //     const scroll = new locomotiveScroll({
+    //         el: scrollref.current,
+    //         smooth: true,
+    //         multiplier: 1.2, // Optional, you can adjust smoothness
+    //     });
 
-        // Cleanup the locomotive scroll instance on unmount
-        return () => {
-            if (scroll) {
-                scroll.destroy();
-            }
-        };
-    }, []);
+    //     // Cleanup the locomotive scroll instance on unmount
+    //     return () => {
+    //         if (scroll) {
+    //             scroll.destroy();
+    //         }
+    //     };
+    // }, []);
 
     useEffect(() => {
         // Ensure ScrollTrigger works with locomotive-scroll
-        ScrollTrigger.scrollerProxy(scrollref.current, {
-            scrollTop(value) {
-                if (arguments.length) {
-                    scrollref.current.scrollTop = value; // Set the scroll position
-                }
-                return scrollref.current.scrollTop; // Get the scroll position
-            },
-        });
+        // ScrollTrigger.scrollerProxy(scrollref.current, {
+        //     scrollTop(value) {
+        //         if (arguments.length) {
+        //             scrollref.current.scrollTop = value; // Set the scroll position
+        //         }
+        //         return scrollref.current.scrollTop; // Get the scroll position
+        //     },
+        // });
 
         // Create animation with gsap and scrollTrigger
         gsap.from('.Whatwedo', {
@@ -53,7 +53,7 @@ const Section2 = () => {
             scrollTrigger: {
                 trigger: '.Whatwedo',
                 scrub: true,
-                markers: true,
+                // markers: true,
                 scroller: 'body',
                 start: 'top  0%',
                 end: 'bottom  0%',
@@ -67,7 +67,7 @@ const Section2 = () => {
             scrollTrigger: {
                 trigger: '.Whatwedo',
                 scrub: true,
-                markers: true,
+                // markers: true,
                 scroller: 'body', // Set scroller to the locomotive-scroll container
                 start: 'top 80%',
                 end: 'bottom 0%',
