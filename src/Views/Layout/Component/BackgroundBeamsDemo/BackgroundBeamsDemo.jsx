@@ -15,7 +15,7 @@ export function BackgroundBeamsDemo() {
         const el = gsap.timeline({
             scrollTrigger: {
                 trigger: '.stepslaunch',
-                scrub: 5,
+                scrub: true,
                 markers: true,
                 scroller: 'body', // Set scroller to the locomotive-scroll container
                 start: 'top 0%',    // when the top of the trigger hits the top of the viewport
@@ -30,7 +30,7 @@ export function BackgroundBeamsDemo() {
 
             scrollTrigger: {
                 trigger: '.stepslaunch',
-                scrub: 5,
+                scrub: true,
                 markers: true,
                 scroller: 'body',
                 start: 'top  0%',
@@ -44,7 +44,7 @@ export function BackgroundBeamsDemo() {
             scale: 1,
             scrollTrigger: {
                 trigger: '.stepslaunch',
-                scrub: 5,
+                scrub: true,
                 markers: true,
                 scroller: 'body', // Set scroller to the locomotive-scroll container
                 start: 'top 80%',
